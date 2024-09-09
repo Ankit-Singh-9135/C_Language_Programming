@@ -1,0 +1,69 @@
+1)Add 1st and Last
+
+Write a c program to take input of 3 digit number from the user , and add the 1st digit and last digit of that given number
+
+
+input :345
+output :8
+
+====================
+
+2)Time Conversion
+
+Write a program to take input for seconds from the user , And convert it into Hour, Minutes , Second format.
+
+input:- Enter the number of seconds: 3671
+
+output:-3671 seconds is equivalent to 1 hours, 1 minutes, and 11 seconds.
+
+=================
+3)Convert Fahrenheit to Celsius
+
+Write a C program to convert temperature from Fahrenheit to Celsius.
+
+Input as :
+
+Enter temperature in Fahrenheit: 100
+
+Expected output:
+
+100.00 Fahrenheit is 37.78 Celsius.
+
+C= (F - 32) * (5.0 / 9.0)
+
+======================
+
+4) Lowercase to Uppercase
+
+Write a C program to convert a lowercase character to uppercase take the lowercase character as a input from the user by using scanf().
+
+Input as :
+
+Enter a lowercase character: u
+
+Expected output :
+
+Uppercase equivalent: U
+
+===============================
+
+5)Find the biggest
+
+Write a  c Program to find the biggest number among three numbers. without using loops and control flow statement
+
+
+Ex:- 1
+
+input :- 10 20 30
+
+output:- 30
+
+Ex:- 2
+
+input :- 100 20 340
+
+output:- 340
+
+
+
+

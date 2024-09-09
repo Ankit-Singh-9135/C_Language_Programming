@@ -1,0 +1,42 @@
+1)Express as Sum Of prime
+Write a program in C to check whether a number can be expressed as the sum of two prime. 
+
+Sample Input
+Input as: 16
+Sample Output
+Output :
+
+16 = 3 + 13
+
+16 = 5 + 11
+
+2)Automorphic number
+Write a program to check given number is Automorphic number or not.
+
+Sample Input
+input =25
+Sample Output
+25 is Automorphic number.
+
+
+3)All Prime Number
+Write a program in C to find the prime Numbers Between the given range 100 to 999
+Sample Input
+-
+Sample Output
+-
+
+4)Find All Armstrong Number
+Write a C program to find all Armstrong numbers between 100 to 999.
+Sample Input
+153
+Sample Output
+153 is an Armstrong number because (1)^3+(5)^3+(3)^3 = 153.
+
+5)Strong Number
+Write a C program to find all strong numbers between 1 to 500.
+
+Sample Input
+input =145
+Sample Output
+145 is Strong number

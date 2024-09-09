@@ -1,0 +1,115 @@
+1)BusTicketBooker
+You are developing a program for an online bus ticket booking platform called "BusTicketBooker." The platform offers tickets for a fixed price of Rs. 300 per seat. However, there are discounts available for senior citizens. If a passenger's age is between 60 and 100 (inclusive), they will receive a 20% discount on the total booking cost.
+
+
+
+Write a C program for "BusTicketBooker" that takes the number of tickets and the age of the passenger as inputs and calculates the total booking cost after applying any applicable discount using the ternary operator. The program should then display the bill with a suitable message, including the total cost and the discount amount (if applicable).
+
+
+
+Your task is to implement the program logic inside the main function by using only Ternary Operator
+Note :- This Booking is only for one person NOt For multiple user
+
+Sample Input
+Age of passenger :-
+
+Sample Output
+Calculate discount if his age is between the criteria 
+
+2)electricity bill
+Write a C program using the ternary operator to calculate the electricity bill for a given number of units consumed by a customer.
+
+
+
+For the first 100 units, the rate is Rs. 3.00 per unit.
+
+For any additional units beyond 100, the rate is Rs. 4.50 per unit.
+
+
+
+
+
+Input as :
+
+
+
+=>Take the input from user enter the number of units consumed by the customer.
+
+
+
+=>Calculate the electricity bill based on the rate slabs mentioned above using the ternary operator.
+
+
+
+=>Display the electricity bill as output.
+Sample Input
+NO
+Sample Output
+No
+
+3)Positives Negative Or Zero
+Write a C program that takes an integer as input and checks if it is a positive, negative, or zero. Display the appropriate message as output using the ternary operator.
+
+Sample Input
+-1
+Sample Output
+Negative 
+
+4)payroll system for a company
+Devlop a program on a payroll system for a company. The system needs to calculate the salary of an employee based on their employee type ('M' for manager or 'H' for HR employee) and their basic salary. For managers, their salary should be increased by 5% as a performance bonus. Write a C program that takes the employee type and basic salary as inputs and calculates the increased salary using the ternary operator.
+
+
+
+Input as:
+
+---------
+
+Take the input from user -->employee type ('M' for manager, 'H' for HR employee).
+
+Take the input from the user --> basic salary of the employee.
+
+
+
+Calculate the increased salary using the ternary operator:
+
+Sample Input
+Take the input from user -->employee type ('M' for manager, 'H' for HR employee).
+
+Take the input from the user --> basic salary of the employee.
+
+Sample Output
+
+Calculate the increased salary using the ternary operator:
+
+5)BookWorld
+Write a C program for "BookWorld" that takes the total purchase amount as input and calculates the discounted amount using the ternary operator. The store provides three types of discounts to its customers:
+
+
+
+If the total purchase amount is less than Rs. 1000, there is no discount.
+
+If the total purchase amount is between Rs. 1000 and Rs. 5000 (inclusive), customers get a 5% discount on the total purchase amount.
+
+If the total purchase amount is greater than Rs. 5000, customers get a 10% discount on the total purchase amount.
+
+
+
+Input as:
+
+---------
+
+
+
+take input from user to enter the total purchase amount.
+
+Calculate the discounted amount based on the given total purchase amount and the discount rates mentioned above using the ternary operator.
+
+
+
+Display the discounted amount as output.
+Sample Input
+take input from user to enter the total purchase amount.
+
+Calculate the discounted amount based on the given total purchase amount and the discount rates mentioned above using the ternary operator.
+Sample Output
+Display the discounted amount as output.

@@ -1,0 +1,53 @@
+Write a C program that prompts the user to enter a number and then prints the multiplication table for that number using a while loop.
+
+=================================================================================================================================================================================
+Write a C program to generate the Fibonacci sequence up to a given times using a while loop. The Fibonacci sequence is a series of numbers in which each number is the sum of the two preceding ones, usually starting with 0 and 1. The program should prompt the user to enter a positive integer and then print the Fibonacci sequence up to that number.
+
+
+
+Input as:
+
+Enter how many Fibonacci series you want : 9 
+
+
+
+Output as:
+
+0 1 1 2 3 5 8 13 21
+=================================================================================================================================================================================
+Write a C program to check if a given number is a palindrome. A palindrome is a number that remains the same when its digits are reversed. For example, 121, 454 and 767 are palindromic numbers. The program should prompt the user to enter a positive integer and determine whether it is a palindrome or not.
+
+
+
+Input as:
+
+Enter a number : 121 
+
+
+
+Output as:
+
+121 is a Palindrome number.
+=================================================================================================================================================================================
+Write a C program to check the given number is a perfect number or not?
+
+If a sum of the multiples of the number excluding the given number is same as the original number then we can say that number is a perfect number.
+
+6 multiples are 1,2,3,6 : sum of multiples = 1+2+3 = 6
+
+6 is a perfect number.
+
+=================================================================================================================================================================================
+Write a C program to check if a given number is a strong number. A strong number is a positive integer in which the sum of the factorial of its digits is equal to the number itself. For example, 145 is a strong number since 1! + 4! + 5! = 145. The program should prompt the user to enter a positive integer and determine whether it is a strong number or not.
+
+
+
+Input as:
+
+Enter a number : 145 
+
+
+
+Output as:
+
+145 is a strong number.

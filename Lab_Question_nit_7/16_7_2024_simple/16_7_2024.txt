@@ -1,0 +1,59 @@
+Write a C program that takes two integers as input from the user using scanf, calculates their sum, substraction, multiplication, and division, and then prints these values.
+
+intput - 
+Enter 1st number 
+20
+Enter 2nd number
+10
+
+output 
+
+addition = 30
+multiplication = 200
+substraction = 10
+division = 2
+----------------------------------------------------------------
+2)Write a program that takes the initial velocity (in meters per second), acceleration (in meters per second squared), and time (in seconds) from the user using scanf. Calculate the distance traveled by an object using the formula:
+
+formula :
+( distance= initial_velocity × time+ 1/2 * acceleration × time * time )
+
+input :
+Enter the initial velocity (m/s):  10
+
+Enter the acceleration (m/s^2):  20
+
+Enter the time (s): 4
+
+output :
+The distance traveled is 200.00 meters.
+---------------------------------------------------------------
+
+3)Write a program that converts an amount of money from one currency to another. The user should input the amount in the source currency and the exchange rate. Calculate the equivalent amount in the target currency and print it.
+
+formula : ( converted_amount = amount * exchange_rate )
+
+input :
+Enter the amount in the source currency: 4
+
+Enter the exchange rate (source to target): 2
+
+output :
+Equivalent amount in the target currency: 8.00
+
+---------------------------------------------------------------------
+4)Write a program that takes details of an employee from the user, including name, employee ID, designation, and salary. Then, print the details of the employee.
+
+input :
+Enter employee name: rohit
+Enter employee ID: 101
+Enter employee designation: development 
+Enter employee salary: 25000
+
+output:
+
+Employee Details
+Name: rohit
+Employee ID: 101
+Designation: development
+Salary: $25000.00

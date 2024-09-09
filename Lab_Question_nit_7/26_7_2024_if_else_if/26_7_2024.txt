@@ -1,0 +1,177 @@
+Write a C Program to check whether the triangle is an equilateral, isosceles or scalene triangle. Using the if-else statement.
+
+Take the inputs from the user.
+
+
+
+Case-1 :
+
+Enter the lengths of the sides of the triangle:
+
+Side 1: 5
+
+Side 2: 5
+
+Side 3: 5
+
+
+
+Case-2:
+
+Enter the lengths of the sides of the triangle:
+
+Side 1: 4
+
+Side 2: 5
+
+Side 3: 4
+
+The triangle is an isosceles triangle.
+
+
+
+Case-3:
+
+Enter the lengths of the sides of the triangle:
+
+Side 1: 3
+
+Side 2: 4
+
+Side 3: 5
+
+The triangle is a scalene triangle.
+==============================================================================================================================================================================
+Write a C program for a service center by following given Rules and Guide lines.
+
+
+
+* This service center only accepts 2 wheeler ,3 wheeler & 4 wheeler . If any other vehicle 
+
+came to you , you have to show a message that "this service center is not accepting
+
+other than 2 wheeler, 3 wheeler and 4 wheeler".
+
+
+
+* If the vehicle is 2 ,3 & 4 only then you have to ask the user what is the age of the vehicle.
+
+
+
+* If the age your vehicle is above 8 months then only accept the service center 
+
+otherwise you have to show a message that "your vehicle servie will done after a while".
+
+
+
+* If the vehicle age is greater than 8 months then show options to the user on the console.
+
+
+
+* Options:
+
+
+
+1)Enter 1 for tyre problem
+
+2)Enter 2 for fuel problem
+
+3)Enter 3 for engine issue
+
+4)Enter 4 for general services
+
+
+
+* If the user enter 1 as input so it is tyre problem statement so you have to show a message "how many tyres you are facing the issue ?", based on the issue on the no of tyres,
+
+generate the bill.
+
+
+
+* For example tyre cost Rs. 400 , if the user providing 3 tyre then the bill should be
+
+generated as Rs. 1200 in below format.
+
+
+
+Name of the owener
+
+Name of the bike
+
+Issue
+
+Bill
+
+
+
+* For fuels problem cost is Rs.1500
+
+* For engine issue cost is Rs.5000
+
+* For general servicing cost is Rs.1000
+
+
+
+And generate the bill in the above format.
+==============================================================================================================================================================================
+Write a C program to determine the eligibility for marriage based on specific criteria. The program checks the nationality India as (I or i) 
+
+gender, and age of an individual and provides a response regarding their eligibility for marriage.
+
+
+
+Conditions:
+
+----------------
+
+
+
+* The program is designed for Indian citizens only.
+
+
+
+* If the person is an Indian citizen, the program prompts for their gender.
+
+
+
+* For males, the program asks for their age and checks if it falls between 21 and 50 (inclusive). 
+
+ If so, it displays a message stating that "Congratulation! you are eligible for marriage".
+
+ If not, it must display a message stating that "Sorry! you are not eligible for marriage".
+
+
+
+* For females, the program asks for their age and checks if it falls between 18 and 45 (inclusive). 
+
+ If so, it displays a message stating that "Congratulation! you are eligible for marriage".
+
+ If not, it must display a message stating that "Sorry! you are not eligible for marriage".
+
+
+
+* If the person is not an Indian citizen, the program displays a message stating that the eligibility
+
+ check is only for Indian citizens.
+
+
+
+* Your task is to write a C program that implements the above conditions to determine the eligibility for marriage.
+
+
+
+Instructions:
+
+------------------
+
+
+
+* Implement the program using the C programming language.
+
+* Use suitable variable names and data types for the program.
+
+* Display appropriate messages to guide the user through the input process.
+
+* Assume that the user will provide valid inputs.
+
+* Test your program with different inputs to ensure its correctness.

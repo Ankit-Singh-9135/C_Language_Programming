@@ -1,0 +1,67 @@
+1)Palindrome.
+Implement a function to check if a given string is a palindrome.
+Sample Input
+Input: radar
+
+
+Input: hello
+Sample Output
+Output: The string is a palindrome.
+
+
+Output: The string is not a palindrome.
+
+2)Sum of all elements
+Create a function to calculate the sum of all elements in an integer array.
+Sample Input
+Input:
+
+Size of the array: 5
+
+Array elements: 10 20 30 40 50
+Sample Output
+Output:
+
+Sum of all elements in the array: 150
+
+3)Contains only digits.
+Create a function to check if a string contains only digits.
+Sample Input
+Input:
+
+String: 12345
+
+Input:
+
+String: 45A7
+Sample Output
+Output:
+
+The string contains only digits
+
+Output:
+
+The string contains non-digit characters.
+
+4)Anagrams
+Implement a function to check if two strings are anagrams of each other.
+Sample Input
+Input:
+
+First string: listen
+
+Second string: silent
+
+
+Input:
+
+First string: hello
+
+Second string: world
+Sample Output
+The strings are anagrams.
+
+Output:
+
+The strings are not anagrams.
+

@@ -1,0 +1,92 @@
+Write a C program that asks the user to input a three-digit integer and calculates the sum of its digits. Using While loop.
+
+
+
+Input as : 
+
+Enter a three digit number : 123
+
+
+
+Output as :
+
+Sum of the digits : 6
+=================================================================================================================================================================================
+Write a C program that asks the user to input an integer and count the digts and print the count of the digits.
+
+
+
+Input as : 
+
+Enter a number : 546
+
+
+
+Output as :
+
+Count of the digits is : 3
+=================================================================================================================================================================================
+Write a C program to add all the natural number from 1 to n. Ask the user to give n value and print the addition value.
+
+
+
+Input as : 
+
+Enter n value : 10
+
+
+
+Output as :
+
+Sum of the natural number from 1 to 10 : 55
+=================================================================================================================================================================================
+Write a C prgram that asks the user to input an integer and reverse that number and display the reverse of that given number.
+
+
+
+Case-1
+
+-------
+
+Input as : 
+
+Enter a number : 123
+
+ 
+
+Output as : 
+
+Reverse of the given number is : 321
+
+
+
+Case -2
+
+________
+
+Input as :
+
+Enter a number : 2314
+
+
+
+Output as : 
+
+Reverse of the given number is : 4132
+=================================================================================================================================================================================
+write a C program to find the factorial of a given number. Take the input from the user.
+
+
+
+Input as :
+
+Enter a number : 5
+
+
+
+Output as :
+
+Factoria of 5 : 120
+
+
+

@@ -1,0 +1,76 @@
+Write a C program to accept id from user and display department.
+
+Id: 11 to 15 is Software department
+
+  16 to 20 is Developer department
+
+  21 to 23 is Management department
+
+
+================================================================================================================================================================================
+Write a C program that will ask for a person’s name and his/her game score. Then it will ask for a second person’s name and score. The program will print the winner’s name and also print by how many 
+
+points that person won by comparing the scores. Develop this program by using switch case.
+================================================================================================================================================================================
+
+Develop below program using switch case)
+
+Write a C program that will read a float and a character from console. The character could be d for deposit or w for withdrawal.
+
+Starting with a Minimum balance of 2000.
+
+
+
+*Ask the user to initialize the minimum balance and don't allow 0 and -ve values if it is 0 or -ve then print "Ammount Can't be stored".
+
+
+
+*If the user want deposit operation then ask how much ammount he want to deposit and add that ammount
+
+ with balance and print the balance.
+
+*if the user want withdrwal operation then ask how much ammount he want to withdrwal and substract that 
+
+ ammount from the balance and print the balance.
+
+
+
+[Note: If the deposit ammount is negetive or 0 print "Invalid ammount".
+
+    If the withdrawl ammount is negetive , 0 or greater than balance then print "Invalid ammount"]
+
+
+
+Hints:
+
+-------
+
+Declare variables for the amount in float, balance in float and transaction code in char types.
+
+
+
+Test the transaction code, if ‘d’ it is deposit. Test the ammount so that it is not negative.
+
+If the balance is not negative or positive sum-up
+
+the balance.
+
+balance = balance + amount;
+
+Test the transaction code for withdrawal, ‘w’. If the transaction code is ‘w’
+
+Minus the withdrawn amount to update the
+
+balance.
+
+balance = balance - amount;
+
+And print the balance.
+================================================================================================================================================================================
+Write a C program to take user Id as 1001 and Pasword as 1010. Ask the user to enter his id, if the id is valid 
+
+then ask the user to enter his password ,if the password is correct then print the name of the user, otherwise 
+
+the program will print incorrect Passoword and if the Id doesnot exits, the program will print Incorrect Id.
+
+develop this program by using Switch case. 

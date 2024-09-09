@@ -1,0 +1,54 @@
+1)
+Next Multiple of 10
+Write a c program to find the next multiple of 10 of a given two digit number, if the given number's last digit is less than 5 then 
+
+find the previous multiple of 10 and if the given number's last digit is greater than or equal to 5 then find the next multiple of 10.
+
+
+input as 24
+output:20
+
+input as 36
+output:40
+
+=======================
+2)Reverse A Number
+
+Write a C program to reverse 3 digit number without using any loops. 
+
+input :- 786
+
+output:- 687
+
+======================
+
+3)Shopping Of TV
+
+A shopkeeper buys a TV set for Rs. 3500 and sells it at a profit of 27%. Apart from this a VAT of 12.7% and Service Charge is 3.87% is charged. 
+
+Write a C program to Display total selling price, profit along with vat and service charge.
+
+Cost Price: Rs. 3500
+Selling Price: Rs. 4445.00
+Profit: Rs. 945.00
+VAT: Rs. 564.52
+Service Charge: Rs. 171.02
+Total Selling Price: Rs. 5180.54
+
+============================
+
+4)Find the Area
+
+Write a C program to calculate and print the area of a square and rectangle.
+
+input :-
+
+Side of square is : 5
+
+Length and breadth of rectanngle is : 4 , 5
+
+output:-
+
+Area of square is : 25
+
+Area of rectanngle is : 20

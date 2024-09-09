@@ -1,0 +1,59 @@
+Write a C program to check the given number is a prime number or not.
+
+
+
+Input as :
+
+Enter a number : 13
+
+Expected Output :
+
+13 is a Prime Number.
+
+
+================================================================================================================================================================================
+Write a C program to add all the digits present in a given number until it became a single digit. Develop it by using while loop.
+
+[if the number is 5678, sum of digit =5+6+7+8=26 , again sum of digit of the sum : 2+6=8] 
+
+
+
+Input as : 5678
+
+
+
+Ouput as : 8
+
+
+================================================================================================================================================================================
+Write a C program to check the given number is perfect number or not. A perfect number is a positive integer that is equal to the sum of its proper divisors (excluding itself). 
+
+
+
+Input as :
+
+Enter a number :28
+
+Output as :
+
+28 is a Perfect Number
+
+================================================================================================================================================================================
+Write a C program that calculates the Highest Common Factor (HCF) of two numbers using for loops
+
+
+
+input as :
+
+Enter two numbers: 8 12
+
+The HCF of 8 and 12 is 4
+================================================================================================================================================================================
+Write a C program that calculates the sum of a factorial series up to a given number of terms.
+
+
+
+Enter the number of terms in the factorial series: 5
+
+The sum of the factorial series up to 5 terms is: 153
+

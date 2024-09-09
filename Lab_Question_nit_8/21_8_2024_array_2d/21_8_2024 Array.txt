@@ -1,0 +1,78 @@
+
+
+Write a C program that finds pairs in an array whose sum is 15.
+
+
+Test Data :
+
+
+Input the size of array : 12
+
+Input 8 elements in the array :
+
+2 4 6 7 8 9 10 11 12 13 14 16
+
+
+Expected output :
+
+(2, 13)
+
+(4, 11)
+
+(6, 9)
+
+(7, 8)
+
+
+
+=====================================================================================================================
+Write a C program that prints the elements of a given array in a specific format. The program should take an array as input and display the array elements in pairs, with each pair consisting of the first and last elements, followed by the second and second-to-last elements, and so on. If the array has an odd number of elements, the middle element should be printed alone.
+
+
+For example, given the array: [2, 5, 1, 6, 7, 9, 8, 3], the expected output should be:
+
+
+2 3
+
+5 8
+
+1 9
+
+6 7
+=====================================================================================================================
+
+
+Write a C program that rearranges the elements of a given array by moving all the zeros to the front. The program should take an array as input and swap the positions of non-zero elements with zeros, such that all the zeros appear at the beginning of the array, while maintaining the relative order of non-zero elements.
+
+
+For example: 
+
+given the input array: [1, 0, 2, 0, 4, 5, 0, 3, 0]
+
+Expected output:
+
+1 2 4 5 3 0 0 0 0
+
+
+
+=====================================================================================================================
+Write a C program to find and print all the missing elements that are not present in a given array. Given an array of integers, your task is to identify and print all the numbers that are missing within a specified range.
+
+
+For example:
+
+given the input array arr = [1, 4, 7, 12, 17] 
+
+Expected output as : 2 3 5 6 8 9 10 11 13 14 15 16
+=====================================================================================================================
+
+
+
+Write a C program that modifies a given array in a wave pattern and prints the resulting array. The wave pattern requires that the previous element in the array must be greater than the next element, and the next element must be greater than the previous element.
+
+
+For example, consider the input array arr = {1, 2, 3, 4, 5}
+
+resulting in the array 2 1 4 3 5.
+
+

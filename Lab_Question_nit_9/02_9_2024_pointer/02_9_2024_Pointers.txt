@@ -1,0 +1,79 @@
+Que 1 : Write a program in C to find the maximum number between two numbers using a pointer.
+-------
+
+Sample input : first number : 5
+               second number : 6
+
+Sample output : 6 is the maximum number.
+
+=================================================================================================================
+
+Que 2 : Write a program in C to add two numbers using pointers.
+-------
+
+Sample input : first number : 5
+               second number : 6
+
+Sample output : The sum of the entered numbers is : 11 
+
+
+=================================================================================================================
+
+Que 3 : Write a program in C to store n elements in an array and print the elements using a pointer.
+-------
+
+Sample input :
+
+Input the number of elements to store in the array :5
+
+Input 5 number of elements in the array :
+
+element - 0 : 5
+element - 1 : 7
+element - 2 : 2
+element - 3 : 9
+element - 4 : 8
+
+Sample output :
+The elements you entered are :                                        
+
+element - 0 : 5                                                
+element - 1 : 7                                                
+element - 2 : 2                                                
+element - 3 : 9                                                
+element - 4 : 8 
+
+
+
+=================================================================================================================
+
+Que 4 : Write a program in C to swap elements using call by reference.
+------
+
+-> create int main() function.
+-> create void swap(int *a, int *b, int *c) function.
+-> in main function read value for a,b,c and call the swap fuction by passing addresses of all three variable.
+-> NOTE : print the result before swap and after swap in main funtion only and understand the use/power of pointer.
+
+Sample input : a = 5 , b = 6 , c = 7;
+
+Sample output :
+
+The value before swapping are :                                        
+a = 5                                                 
+b = 6                                                 
+c = 7                                                 
+                                                    
+The value after swapping are :                                        
+a = 7                                                 
+b = 5                                                 
+c = 6 
+
+=================================================================================================================
+
+Que 5 : Write a program in C to calculate the length of a string using a pointer.
+-------
+
+Sample input : NareshIt26
+
+Sample output : The length of the given string NareshIt26 is : 10

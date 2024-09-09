@@ -1,0 +1,45 @@
+1)Natural Number
+Write a program in C to add n natural numbers using a function.
+Sample Input
+Input n value : 10
+Sample Output
+The sum of 10 natural numbers is 55
+
+2)Even or Odd
+Write a program in C to check if a given number is even or odd using the function.
+Sample Input
+Input any number : 5
+Sample Output
+The entered number is odd. 
+
+3)Max Number
+Write a C program to find the biggest number between three number using the function.
+Sample Input
+Input three positive number : 13 31 19
+Sample Output
+The biggest number is 31.
+
+4)Swap Number
+Write a program in C to swap two numbers using a function.
+Sample Input
+Input 1st number : 2
+
+Input 2nd number : 4
+Sample Output
+Before swapping: n1 = 2, n2 = 4                          
+
+After swapping: n1 = 4, n2 = 2 
+
+5)square of any number
+Write a program in C to find the square of any number using the function.
+Sample Input
+Input any number for square : 20
+Sample Output
+The square of 20 is : 400.00
+
+6)Check Prime Number
+Write a program in C to check whether a number is a prime number or not by using the function.
+Sample Input
+Input a positive number : 5
+Sample Output
+The number 5 is a prime number.

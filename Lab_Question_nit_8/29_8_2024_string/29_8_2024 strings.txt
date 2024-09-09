@@ -1,0 +1,64 @@
+1)sum of the numbers
+Write a C program to find out the sum of the numbers which is present in a given string.
+Sample Input
+Input as : 
+
+Enter a String : TS12ab345
+Sample Output
+Output as : 
+Sum Of the numbers is : 15
+
+2)compresses a string
+Create a program that compresses a string by replacing repeated characters with a count of the repetition (e.g., "aaabbbcc" becomes "a3b3c2").
+Sample Input
+Input as : 
+
+Enter a String : aaabbccdae
+Sample Output
+Output as : 
+
+Resulting string is : a4b2c2
+
+3)convert each word first alphabet to Upper case.
+Write a C program to convert each word first alphabet to Upper case.
+Sample Input
+Input as : 
+
+Enter a String : i am a student of nareshit
+Sample Output
+Output as : 
+
+Sum Of the numbers is : I Am A Student Of Nareshit
+
+4)count all palindromic substrings
+Write a program to find and count all palindromic substrings in a given string.
+Sample Input
+Input as : 
+
+Enter a String : madam
+Sample Output
+Output as : 
+
+Palindromic substring : madam
+
+Palindromic substring : ada
+
+Total palindromic substrings are : 2
+
+5)Palindrome String
+Check the given String is palindrome or not.
+Sample Input
+Input as : 
+
+Enter a String :  radar
+
+Input as : 
+
+Enter a String : alfha
+
+Sample Output
+Output as : 
+radar is a palindrome string.
+Output as : 
+
+radar is a not palindrome string.

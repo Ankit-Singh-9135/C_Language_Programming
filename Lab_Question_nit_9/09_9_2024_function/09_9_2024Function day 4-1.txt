@@ -1,0 +1,96 @@
+Que 1 : Write a program in C to find the square of any number using the function.
+-------
+
+-> create int main() function.
+-> create int square(int n) function.
+-> in main function read one number and call square(int n) function. here square(int n) function will perform the operation and will return the square of given number as result to the main function.
+-> in main function catch the square of number which is calculate and return by square(int n) fuction and print it.
+ 
+Sample input : Input any number for square : 20
+
+Sample output : The square of 20 is : 400
+
+===========================================================================================================================
+
+Que 2 : Write a program in C to check if a given number is even or odd using the function.
+-------
+
+-> create int main() function.
+-> create bool isEvenOrOdd(int n) function.
+-> in main function read one number and call isEvenOrOdd(int n) function. here isEvenOrOdd(int n) function will perform the operation and will return true or false to the main function.
+-> in main function catch the boolean result and according that print the proper message.
+
+Sample input : Input any number : 5
+
+Sample output : The entered number is odd. 
+
+===========================================================================================================================
+
+Que 3 : Write a program in C to check whether a number is a prime number or not by using the function.
+-------
+
+-> create int main() function.
+-> create bool isPrime(int n) function.
+-> in main function read one number and call isPrime(int n) function. here isPrime(int n) function will perform the operation and will return true or false to the main function.
+-> in main function catch the boolean result and according that print the proper message.
+
+Sample input : Input a positive number : 5
+
+Sample output : The number 5 is a prime number.
+
+===========================================================================================================================
+
+Que 4 : Write a C program to find the biggest number between three number using the function.
+-------
+
+-> create int main() function.
+-> create int biggestNumber(int a, int b, int c) function.
+-> in main function read three numbers as input and call biggestNumber(int a, int b, int c) function. here biggestNumber(int a, int b, int c) function will perform the operation and will return biggest number as result to the main function.
+-> in main function catch the biggest number which is return by biggestNumber(int a, int b, int c) function print the result.
+
+
+Sample input : Input three positive number : 13 31 19
+
+Sample output : The biggest number is 31.
+
+===========================================================================================================================
+
+Que 5 : Write a program in C to swap two numberss using a function.
+-------
+
+-> create int main() function.
+-> create void swap(int a, int b) function.
+-> in main function read two values and call swap function and print the values before swap and after swap.
+
+Sample input : 
+               Input 1st number : 2
+               Input 2nd number : 4
+
+Sample output : 
+               Before swapping: n1 = 2, n2 = 4                          
+               After swapping: n1 = 4, n2 = 2 
+
+===========================================================================================================================
+
+Que 6 : Write a program in C to add N natural numbers using a function.
+-------
+
+-> create int main() function.
+-> create int naturalNumberSum(int a) function. this function will take one integer number as input and will return sum of natural number.
+-> in main function read one values and call naturalNumberSum function. and print the result.
+
+Sample input : Input n value : 10
+Sample output : The sum of 10 natural numbers is 55
+
+===========================================================================================================================
+
+Que 7 : Write a C program to check if a given year is a leap year or not using function.
+------
+
+-> create int main() function
+-> create bool isLeapYear(int year) function. this function will take year as parameter suppied by main function and will check the year is leap year or not. if year is leap then return true otherwise false.
+
+Sample input : Enter a year: 2024
+
+Sample output : 2024 is a leap year.
+

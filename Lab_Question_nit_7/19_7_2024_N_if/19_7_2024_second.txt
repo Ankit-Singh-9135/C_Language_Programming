@@ -1,0 +1,46 @@
+Note: only use if statement
+
+1)Even Or Odd Check
+Develop a C program that takes an integer input and checks whether it is even or odd. Print "Even" if it's even, and "Odd" if it's odd.
+
+Sample Input
+Enter a Integer : 20
+
+Sample Output
+Even
+
+2)Find equal or not equal
+Create a C program that reads two integers from the user and prints "Equal" if they are equal, and "Not Equal" otherwise.
+
+Sample Input
+Enter a number : 10 10
+
+Sample Output
+Equal
+
+3)Time Format
+Write a C program that takes an hour in the 24-hour format as input and identifies the time of day as "Morning," "Afternoon," "Evening," or "Night." Implement this using a series of if statements. Ensure that the program also checks for invalid input, displaying an appropriate message if the entered hour is not within the valid range (0-23). Present the program with a suitable title and header for clarity.
+
+Sample Input
+Enter the hour (24-hour format): 13
+
+Sample Output
+It's Afternoon.
+
+4)Vowel & Consonant
+Develop a C program that reads a character from the user and prints "Vowel" if the character is a vowel (a, e, i, o, u or their uppercase equivalents), and "Consonant" if it's a consonant.
+
+Sample Input
+Enter a character : I
+
+Sample Output
+Vowel
+
+5)Is Number Divisible ?
+Write a C program to check whether a number is divisible by 5 and 11 or not.
+
+Sample Input
+Enter a number : 55
+Sample Output
+
+55 is divisible by both 5 and 11

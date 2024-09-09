@@ -1,0 +1,403 @@
+1)
+Which library should be included to use input/output functions in C?
+
+
+A)stdio.h
+
+b)math.h
+
+c)string.h
+
+d)stdlib.h
+
+----------------------------
+
+2)What is the purpose of the printf() function?
+
+
+
+A)Read input from the user
+
+b)Write output to the console
+
+c)Perform mathematical calculations
+
+d)Allocate memory dynamically
+
+
+-----------------------------
+
+3)Which format specifier is used to print an integer value in decimal format?
+
+
+a)%d
+
+b)%f
+
+c)%c
+
+d)%s
+
+------------------------
+
+4)What is the purpose of the scanf() function?
+
+
+a)Display text on the console
+
+b)Read input from the user
+
+c)Perform arithmetic operations
+
+d)Compare two strings
+
+
+-----------------------
+
+5)The format identifier ‘%i’ is also used for _ datatype?
+
+
+a)char
+
+b)int
+
+c)float
+
+d)double
+
+
+----------------------------------
+
+6)
+Which format specifier is used to read a character using scanf()?
+
+
+a)%d
+
+b)%f
+
+c)%c
+
+d)%s
+
+
+-----------------------
+
+7)What is the output of this program?
+
+int main()
+{
+int x = 1, y = 2;
+printf(“%d”, x, y);
+return 0;
+}
+
+
+a)1
+
+b)2
+
+c)Compilation Error
+
+d)Garbage Value
+
+
+---------------------
+
+8)What is the output of the following code?
+
+int main() {
+int i=1;
+i=2+2*i++;
+printf(“%d”,i);
+return 0;
+}
+
+
+
+a)2
+
+b)3
+
+c)4
+
+d)5
+
+
+----------------------------
+
+9)
+What is the output of this program?
+
+main()
+{
+int i;
+i = 2+3, 4>3, 1;
+printf( “%d” , i);
+}
+
+
+
+a) 1
+
+b) 4
+
+c) 3
+
+d) 5
+
+
+---------------------------
+
+10)What is the output of this program?
+
+main ( )
+{
+int i=5;
+printf( “%d %d %d ” , i,i<<2,i<<2);
+}
+
+a) 5 20 1
+
+b) 5 1 20
+
+c) 5 20 20
+
+d) 5 1 1
+
+
+---------------------------------
+11)
+What is the output of this program?
+
+int main()
+{
+int i=5;
+printf( “%d %d %d ” , i,i<2,i>2);
+return 0;
+}
+
+
+a)Compilation error
+
+b)Garbage value
+
+c)5 0 1
+
+d)5 1 0
+
+
+-------------------------------
+12) What is the output of this program ?
+
+int main()
+{
+int i=5;
+printf( “%d %d %d ” , i,i&&2,i||2);
+return 0;
+}
+
+
+a) 5 1 1
+
+b) Compilation error
+
+c) Garbage value
+
+d) 5 0 1
+
+
+----------------------------
+
+13)What is the output of this program 32 bit c compiler ?
+
+int main()
+{
+int i=1;
+i=i+i*i++;
+printf(“%d”,i);
+return 0;
+}
+
+
+
+a) 2
+
+b) 3
+
+c) 4
+
+d) 5
+
+
+-------------------------------------------
+
+14)What will be the output of the following C code?
+
+int main() {
+int x = 10;
+printf(“%d”, printf(“%d”, x));
+
+return 0;
+}
+
+
+
+a) 10
+
+b) 1
+
+c) 2
+
+d) ERROR
+
+
+-------------------------------------
+15)
+
+What is the value of a after executing the following code?
+
+int a = 5;
+a += 3 * 2;
+
+
+A.11
+
+
+B.16
+
+
+C.30
+
+
+D.15
+
+
+E.14
+
+
+---------------------------------
+
+16)
+int main() {
+int a = 10, b = 20, c = 10;
+int result = (a > b) || (b == c) && (c != a);
+printf(“result = %d\n”, result);
+return 0;
+}
+
+
+
+A. result = 0
+
+B. result = 1
+
+
+C. result = 2
+
+
+D. result = 3
+
+
+E. result = 4
+
+
+
+
+-------------------------------
+
+17) 
+int main() {
+int a = 3;
+int b = 4;
+int result = (a += b) * (b -= 2);
+printf(“result = %d\n”, result);
+return 0;
+}
+
+
+
+A.result = 10
+
+
+B.result = 12
+
+
+C.result = 15
+
+
+D.result = 14
+
+
+E.result = 16
+
+
+-------------------------------
+
+18)
+
+
+What will be the output of the following C code?
+
+void main()
+{
+    int x = 4, y, z;
+    y = --x;
+    z = x--;
+    printf("%d%d%d", x,  y, z);
+}
+
+
+a) 3 2 3
+
+b) 2 3 3
+
+c) 3 2 2
+
+d) 2 3 4
+
+
+-----------------------------------
+
+19)
+What will be the output of the following C code?
+
+void main()
+{
+    int a = 5, b =  - 7, c = 0, d;
+    d = ++a && ++b || ++c;
+    printf("\n%d%d%d%d", a,  b, c, d);
+}
+
+
+a) 6 -6 0 0
+
+b) 6 -5 0 1
+
+c) -6 -6 0 1
+
+d) 6 -6 0 1
+
+-----------------------------------
+20)What will be the output of the following C code?
+
+void main()
+{
+    int a =  - 5;
+    int k = (a++, ++a);
+    printf("%d\n", k);
+}
+
+
+a)-4
+
+b) -5
+
+c) 4
+
+d) -3
+
+
+
+
+

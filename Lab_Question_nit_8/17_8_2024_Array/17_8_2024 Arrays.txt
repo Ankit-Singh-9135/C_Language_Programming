@@ -1,0 +1,135 @@
+
+
+Write a program in C to store elements in an array and print it.
+
+Input 10 elements in the array :
+
+element - 0 : 1
+
+element - 1 : 1
+
+element - 2 : 2
+
+element - 3 : 3
+
+element - 4 : 4
+
+element - 5 : 5
+
+element - 6 : 6
+
+element - 7 : 7
+
+element - 8 : 8
+
+element - 9 : 9
+
+.......
+
+and so on.
+
+Expected Output :
+
+Elements in array are: 1 1 2 3 4 5 6 7 8 9
+
+
+=======================================================================================================================
+ Display Array in Reverse Order
+1 point
+
+Write a program in C to read n number of values in an array and display it in reverse order.
+
+Input the number of elements to store in the array :3
+
+Input 3 number of elements in the array :
+
+element - 0 : 2
+
+element - 1 : 5
+
+element - 2 : 7
+
+Expected Output :
+
+The values store into the array are :
+
+2 5 7
+
+The values store into the array in reverse are :
+
+7 5 2
+
+
+
+=======================================================================================================================
+ Sum of all elements
+1 point
+
+Write a program in C to find the sum of all elements of the array.
+
+Input the number of elements to be stored in the array :3
+
+Input 3 elements in the array :
+
+element - 0 : 2
+
+element - 1 : 5
+
+element - 2 : 8
+
+Expected Output :
+
+Sum of all elements stored in the array is : 15
+
+
+
+=======================================================================================================================
+ print odd and even elements
+1 point
+
+Write a program in C to print separately the  odd and even integers 
+
+Test Data :
+
+Input the number of elements to be stored in the array :5
+
+Input 5 elements in the array :
+
+element - 0 : 25
+
+element - 1 : 47
+
+element - 2 : 42
+
+element - 3 : 56
+
+element - 4 : 32
+
+Expected Output :
+
+The Even elements are :
+
+42 56 32
+
+The Odd elements are :
+
+25 47
+
+
+
+=======================================================================================================================
+
+
+Write a C program to store some integers in an array and print all the prime numbers available in that array
+
+
+Input as :
+
+1 2 3 4 5
+
+Output as :
+
+2 3 5
+
+
+

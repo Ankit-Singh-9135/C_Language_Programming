@@ -1,0 +1,32 @@
+1)Remove Characters
+Write a C Program to Remove Characters in Second String which are present in First String.
+Sample Input
+Input 1st string: apple
+
+Input 2nd string: aeroplane
+Sample Output
+Output as : ron
+
+2)Reverse All the Vowels
+Write a C program to reverse all the vowels present in a given string. Return the newly created string or modified string .
+Sample Input
+Input a string: Aeroplane
+Sample Output
+Output as : earoplenA
+
+3)Reverse Words
+Write a C program to reverse Words of the Given String?
+Sample Input
+input as : Today is Monday
+Sample Output
+Output: yadoT si yadnoM
+
+4)prime Position
+write a c Program to Display All Characters Present in the Prime Position of a String.
+Sample Input
+Test Data :
+
+Input a string : today is wednesday
+Sample Output
+Output as : da sdey
+

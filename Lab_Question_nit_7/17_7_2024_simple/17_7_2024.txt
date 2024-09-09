@@ -1,0 +1,109 @@
+1)Cycle Selling Price Calculator
+Rohan purchased an old cycle for Rs. 1200 and spent Rs. 250 on repairs, Rs. 350 on coloring, and added new accessories worth Rs. 500. Rohan wants to make a profit of Rs. 1500 on selling the cycle.
+
+
+
+Write a C program that calculates and displays the selling price of the cycle based on the given information.
+
+
+
+Your program should:
+
+
+
+Declare and initialize variables for the following costs:
+
+
+
+costPrice: The initial cost of the cycle (Rs. 1200)
+
+repairCost: The cost of repairs (Rs. 250)
+
+coloringCost: The cost of coloring (Rs. 350)
+
+accessoriesCost: The cost of new accessories (Rs. 500)
+
+desiredProfit: The desired profit (Rs. 1500)
+
+Calculate the total cost by adding up all the costs.
+
+
+
+Calculate the selling price by adding the total cost and the desired profit.
+
+
+
+Display the individual costs (cost price, repair cost, coloring cost, accessories cost, and desired profit) along with the calculated selling price.
+
+
+-----------------------------------
+
+2)Surface Area Of Cylinder
+
+Write a C program to find the surface area of a cylinder.Take the height and radius as a input from the user by using scanf().
+
+The surface area of a cylinder can be calculated using the formula:
+
+A = 2PIr^2 + 2PIrh
+
+Find the surface area and print the radius, height and also the surface area.
+
+Enter the radius of the cylinder: 5
+Enter the height of the cylinder: 10
+
+Radius: 5.00
+Height: 10.00
+Surface Area: 471.24
+
+----------------------------------
+3)Profit and Loss Calculator
+
+You are tasked with creating a C program to calculate the profit and loss for a given transaction using the following formulas. Take the cost price and selling price from the user by using scanf().
+
+
+
+Profit (P) = Selling Price (SP) - Cost Price (CP)
+
+Loss (L) = Cost Price (CP) - Selling Price (SP)
+
+Profit Percentage (PP) = Profit * 100 / cost Price
+
+Loss Percentage (LP) = Loss * 100 / cost Price
+
+Write a C program that prompts the user for the Cost Price (CP) and the Selling Price (SP) of an item. Calculate and display the profit or loss, as well as the corresponding profit percentage or loss percentage based on the provided formulas.
+
+Your program should:
+
+Prompt the user to enter the Cost Price (CP) and Selling Price (SP) as input.
+
+
+Calculate the profit (P) or loss (L) based on the given formulas.
+
+Calculate the profit percentage (PP) or loss percentage (LP) based on the given formulas.
+
+
+
+Display the calculated profit or loss, as well as the profit percentage or loss percentage.
+
+
+Read the following input from user
+
+Cost Price: [CP]
+
+Selling Price: [SP]
+
+Profit/Loss: [P/L]
+
+Profit Percentage: [PP]%
+
+Loss Percentage: [LP]%
+
+Cost Price: 1500
+
+Selling Price: 1800
+
+Profit/Loss: [calculatedProfitOrLoss]
+
+Profit Percentage: [calculatedProfitPercentage]%
+
+Loss Percentage: [calculatedLossPercentage]%

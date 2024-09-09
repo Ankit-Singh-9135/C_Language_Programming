@@ -1,0 +1,2 @@
+// Currency denomination:
+// 588/-

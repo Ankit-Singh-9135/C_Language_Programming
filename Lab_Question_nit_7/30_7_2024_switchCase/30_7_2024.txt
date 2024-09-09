@@ -1,0 +1,46 @@
+Write a C to take the value from the user as input the month number and print number of days in that month. Using switch statement.
+
+================================================================================================================================================================================
+Write a C program to check whether a Alphabet is vowel or consonant using Switch Case.
+================================================================================================================================================================================
+Write a C program to find the maximum between two numbers using Switch statement.
+================================================================================================================================================================================
+Write a C program to check the number is even or odd by using Switch Case.
+================================================================================================================================================================================
+Write a C program to do a arithmetic operation on two numbers by using Switch Case. Take the operators(+,-,*,/,%) as cases and take the input from the user that what kind of operation user want to do on two number.
+
+
+
+Input as: 
+
+------------
+
+Enter num1 :10
+
+Enter num2 :20
+
+Enter operation : *
+
+
+
+O/P as :
+
+---------
+
+Multiplication is :200
+================================================================================================================================================================================
+
+Using switch statement write a C Program to take the value from the user as input marks of five subjects Physics, Chemistry, Biology, Mathematics, and Computer. Calculate percentage and grade according to the following: Percentage >= 90% : Grade A, Percentage >= 80% : Grade B, Percentage >= 70% : Grade C, Percentage >= 60% : Grade D, Percentage >= 40% : Grade E, Percentage < 40% : Grade F, Using switch statement.
+
+
+
+[Note:-Take All the values as Integer]
+
+
+
+
+
+
+
+
+

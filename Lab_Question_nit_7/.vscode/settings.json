@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "MCQ DAY8.C": "cpp",
+        "MCQDAY8.C": "cpp",
+        "stdio.h": "c"
+    }
+}

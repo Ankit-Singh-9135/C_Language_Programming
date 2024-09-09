@@ -1,0 +1,71 @@
+Write a C program that takes a number as input from the user and determines whether it is a spy number of not, DEVELOP this by using while loop.
+
+A Spy number is a number where the sum of its digits is equal to its product of its digits.
+
+
+
+For Example : 
+
+1124 is a spy number , because the sum of its digits is 1+1+2+4 = 8 and product of its digits is equal to 1*1*2*4 = 8..
+
+=============================================================================================================================================================================
+Write a C program that takes a number as input from the user and determine whether the number is a neon number or not. Develop it by using while loop.
+
+A Neon number is a number is a number where the sum of digits of square of the number is equal to the number itself.
+
+For Example :
+
+9 is a Neon number . Its square is 9*9 = 81 and sum of the digits 8+1 = 9 .So both are equal.
+=============================================================================================================================================================================
+Write a C program to find the given number is a step number or not.
+
+If the adjacent digit difference is 1 then it is a step number.
+
+
+
+Example as: 1234
+
+
+
+o/p : It is a step number.
+
+
+
+Test cases you have to check: 
+
+1234, 4321, 5432, 3210,10 are step numbers.
+
+1001,12234 are not step numbers.
+=============================================================================================================================================================================
+Write a C program to find the alternate digit sum is same or not.
+
+
+
+Example-1 as: 12345
+
+
+
+1+3+5=9
+
+2+4=6
+
+
+
+Output as: Alternate digit sum is not same.
+
+
+
+Example-2 as: 12122
+
+1+1+2=4
+
+2+2=4
+
+
+
+Output as : Alternate digit sum is same.
+=============================================================================================================================================================================
+
+
+
+

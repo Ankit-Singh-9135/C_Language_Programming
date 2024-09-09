@@ -1,0 +1,328 @@
+
+Question: 1
+What will be the output of the following program?
+
+int main()
+{
+int i = -3;
+int k = i % 2;
+printf(“%d\n”, k);
+}
+
+
+
+1)Compile time error
+
+
+2)-1
+
+
+3)1
+
+
+4)Implementation defined
+Ans:2
+
+
+Question: 2
+What will be the output of the following program?
+int main()
+{
+int i = 3;
+int l = i / -2;
+int k = i % -2;
+printf(“%d %d\n”, l, k);
+return 0;
+}
+
+
+
+A) Compile time error
+
+b) -1 1
+
+c) 1 -1
+
+d)Implementation defined
+Ans:b
+
+ 
+Question: 3
+If a b c is the input, then the following program fragment
+
+char x, y, z ;
+printf(“%d”,scanf(“%c%c%c”,&x,&y,&z)) ;
+
+
+
+a)a syntax error
+
+
+b)a fatal error
+
+
+c)segmentation violation
+
+
+d)3
+
+
+e)no output
+Ans:d
+ 
+Question: 4
+The expression 4 + 6 / 3 * 2 – 2 + 7 % 3 evaluates to
+
+
+
+A. 3
+
+
+B. 4
+
+
+C. 6
+
+
+D. 7
+
+Ans:d
+Question: 5
+What will be the output of the following program?
+
+int main()
+{
+float c = 3.5 + 4.5;
+printf(“%d”, (int)c);
+
+return 0;
+}
+
+
+
+A) 8.0
+
+
+B) 8.000000
+
+
+C) 7
+
+
+D) 8
+
+Ans:b
+Question: 6
+What will be the output of the following program?
+int main()
+{
+float c = 3.5 + 4;
+printf(“%d”, (int)c);
+
+return 0;
+}
+
+
+
+A) 8.0
+
+
+B) 8.000000
+
+
+C) 7
+
+
+D) 8
+Ans:c
+Question: 7
+What is the output of the C Program.?
+int main()
+{
+float a=10.0;
+a = a % 3;
+printf(“%f”, a);
+
+return 0;
+}
+
+
+
+A) 0
+
+
+B) 1
+
+
+C) 1.000000
+
+D) Compiler error.
+Ans:d
+Question: 8
+What is the output of the C Program.?
+int main()
+{
+int a=0;
+a = 14%-5 - 2;
+printf(“%d”, a);
+
+return 0;
+}
+
+
+
+A) 0
+
+
+B) -4
+
+
+C) -2
+
+D) 2
+Ans:d
+Question: 9
+What is the output of C Program.?
+int main()
+{
+int a=0;
+a = printf(“4”);
+printf(“%d”,a);
+
+return 0;
+}
+
+
+
+A) 04
+
+
+B) compiler error
+
+C) 41
+
+
+D) 40
+Ans: c
+Question: 10
+What will be the value of d in the following program?
+
+int main()
+{
+    int a = 10, b = 5, c = 5;
+    int d;
+    d = b + c == a;
+    printf("%d", d);
+}
+
+
+A. Syntax error
+
+B. 1
+
+
+C. 5
+
+
+D. 10
+Ans:b
+Question: 11
+Which of the following is not an arithmetic operation?
+
+
+
+a) a * = 10;
+
+
+b) a / = 10;
+
+c) a ! = 10;
+
+
+d) a % = 10;
+
+Question: 12
+What will be the output of the following C code?
+
+#include <stdio.h>
+int main()
+{
+    int a = 10, b = 5, c = 5;
+    int d;
+    d = a == (b + c);
+    printf("%d", d);
+}
+
+
+a) Syntax error
+
+b) 1
+
+
+c) 10
+
+
+d) 5
+
+Question: 13
+What will be the output of the following program?
+
+include
+int main()
+{
+int x = 5, y = 2;
+x *= x - y;
+printf(“%d”, x);
+return 0;
+}
+
+
+1)15
+
+
+2)3
+
+
+3)10
+
+
+4)error
+
+Question: 14
+What will be the output for the following C code?
+
+include
+int main()
+{
+int x = 4, y = 2;
+x /= x / y;
+printf(“%d\n”, x);
+return 0;
+}
+
+
+
+1)4
+
+2)2
+
+
+3)1
+
+
+4)Undefined behavior
+
+Question: 15
+What is the use of sizeof() operator?
+
+
+a)To get the size of data types or variables in bytes
+
+
+b)To get the size of variables only
+
+
+c)To get the size of the structure only
+
+
+d)None of the above

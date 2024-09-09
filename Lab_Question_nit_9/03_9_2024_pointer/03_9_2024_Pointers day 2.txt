@@ -1,0 +1,90 @@
+
+Que 6 : Write a program in C to count the number of vowels and consonants in a string using a pointer.
+-------
+
+Sample input : string
+
+Sample output : 
+
+Number of vowels : 1                                             
+Number of constant : 5
+
+
+=================================================================================================================
+
+Que 7 : Write a c program to find the median of a merged sorted Array by using pointer and function.
+-------
+
+-> create int main() function.
+-> create void mergeAndSort(int *arr1, int size1, int *arr2, int size2, int *mergedArray) function.
+-> double findMedian(int *mergedArray, int totalSize) function.
+
+Sample input : 
+Enter the size of 1st array : 2
+Enter two element :1 3
+
+Enter the size of 2nd array : 1
+Enter one element :2
+
+Sample output : 
+
+After sorting Array is :1 2 3
+Median is : 2
+
+
+Sample input :  
+Enter the size of 1st array : 2
+Enter two element :1 4
+
+Enter the size of 2nd array : 2
+Enter two element :2 3
+
+Sample output : 
+
+After sorting Array is :1 2 3 4
+Median is : 2.5
+
+
+=================================================================================================================
+
+Que 8 : Write a C program to rotate an array of integers to the right by a specified number of positions. 
+------  For example, if you have an array [1, 2, 3, 4, 5] and you want to rotate it to the right by 2 positions, 
+        the result should be [4, 5, 1, 2, 3].(Develop it by using pointers & function).
+
+-> create int main() function.
+-> create void rotateRight(int *arr, int size, int positions) function.
+-> in main function print the output of array before and after rotation.
+
+Sample input : 
+Enter the size of the array: 5
+Enter 5 elements: 1 2 3 4 5
+Enter the number of positions to rotate to the right: 2
+
+Sample output : 
+Before rotation : 1, 2, 3, 4, 5
+After rotation : 4, 5, 1, 2, 3
+
+=================================================================================================================
+
+Que 9 : Given a sorted array of distinct integers and a target value, return the index if the target is found. If not,return the index where it would be if it were inserted in order.(Using Pointer)
+-------
+
+-> create int main() function.
+-> create int searchInsert(int *nums, int size, int target) //Function to find and return the index of the target or the insertion point.
+
+Example 1 :
+Sample input :
+nums = [1,3,5,6]
+target = 5
+Sample output : 2
+
+Example 2 :
+Input: nums = [1,3,5,6]
+target = 2
+Sample output: 1
+
+Example 3:
+Sample input :
+nums = [1,3,5,6]
+target = 7
+Sample output: 4

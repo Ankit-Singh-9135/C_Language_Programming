@@ -1,0 +1,746 @@
+1) Consider the following array declaration in the 'C' language:
+
+
+int array1[] = {2, 3};
+int array2[3]={9};
+What will be the output of the following print statement?
+
+printf(“%d, %d”, array1 [1], array2 [2])
+
+1:- 2, 0
+2:- 3, 0
+3:- 2, 9
+4:- 3, 9
+
+Ans-2
+_________________________________________________
+2)
+Find the output of the following program
+
+int main()
+{
+  int i; int arr[6]={1}; 
+  for(i=0;i<6;i++)
+  {
+     printf("%d",arr[i]);
+  }
+return 0;
+}
+1. 1 1 1 1 1 1
+2. 0 0 0 0 0 0 
+3. 1 0 0 0 0 0
+4. 1 followed by five garbage values
+
+Ans-3
+________________________________________________
+
+3)
+ How do you initialize an array in C?
+
+a) int arr[3] = (1,2,3);
+b) int arr(3) = {1,2,3};
+c) int arr[3] = {1,2,3};
+d) int arr(3) = (1,2,3);
+
+Ans-c
+_______________________________________________
+
+4) What is the output of C Program with arrays.?
+int main()
+{
+int ary[4];
+ary[4] = {1,2,3,4};
+printf(“%d “, ary[2]);
+return 0;
+}
+
+a) 2
+b) 3
+c) 0
+d) Compiler time error
+
+__Ans-d________________________________________
+
+5)
+What is the output of C program with arrays.?
+
+int main()
+{
+char grade={‘A’,’B’,’C’};
+printf(“%c”, grade[0]);
+
+}
+
+a) A
+b) B
+c) C
+D) Compiler time Error
+
+Ans-d
+
+____________________________________________
+
+6)
+What is the output of C Program.?
+
+ int main() 
+{ 
+    int a[3] = {20,30,40}; 
+    a[0]++; 
+    int i=0; 
+    while(i<3) 
+    { 
+       printf(“%d “, i[a]); 
+        i++; 
+    }
+ }
+
+A) 20 30 40
+
+
+b) 41 30 20
+
+
+c) 21 30 40
+
+
+d) None of the above
+
+Ans-c
+____________________________
+
+7)
+
+What is the output of C Program.?
+ int main() 
+{
+ int a[3] = {10,12,14};
+ a[1]=20; 
+int i=0;
+ while(i<3)
+ {
+ printf(“%d “, a[i]); 
+i++; 
+  }
+ } 
+
+A) 20 12 14
+
+
+b) 10 20 14
+
+
+c) 10 12 20
+
+
+d) Compiler error
+
+Ans-b
+_________________________________
+
+8)
+int main()
+{
+int a[5]={5,10,15,20,25};
+int i=5,sum=0;
+while(i>2)
+sum=sum+a[- -i];
+printf(“sum=%d\n”,sum);
+return 0;
+}
+
+A) Sum=50
+
+
+b) Sum=70
+
+
+c) Sum=75
+
+
+d) Sum=60
+
+Ans-d
+___________________________________
+
+9)
+int main( )
+{
+float a[ ] = { 13.24, 1.5, 1.5, 5.4, 3.5 } ;
+float j;
+j = 2.0 ;
+a = a + j ;
+printf(“%f”,a[j]);
+return 0;
+}
+
+A)1.5
+
+b) 15.24
+
+c) 13.24
+
+d) Error
+
+Ans-d
+_________________________
+
+10) 
+#include<stdio.h>
+int main(){
+  
+    int arr[]={2,4,3,4};
+   
+   for(int i=0;i<4;i++)
+    {
+        for(int j=i;j<4;j++)
+        {
+            if(arr[i]+arr[j]==6)
+            {
+                printf("(%d,%d)\n",arr[i],arr[j]);
+            }
+        }
+    }
+    return 0;
+}
+
+A) (2,4)
+   (2,4)
+   (3,3)
+
+b) (2,4)
+   (3,3)
+
+c) (2,4)
+   (2,4)
+   (4,2)
+   (3,3)
+
+d) (2,4)
+   (2,4)
+   (4,2)
+   (3,3)
+   (3,3)
+
+
+Ans-a
+_________________________________________________
+11) 
+
+#include<stdio.h>
+int main(){
+    //write Your code here
+    int arr[]={2,4,3,4};
+	int n=4;
+    for(int i=0,j=n-1;i<n/2;i++,j--)
+    {
+           printf("(%d,%d)\n",arr[i],arr[j]);
+    }
+    return 0;
+}
+
+A) (2,4)
+   (4,3)
+
+b) (2,4)
+   (4,3)
+   (3,4)
+   (4,2)
+
+c) (2,4)
+   (4,3)
+   (3,4)
+d) Compiler Time Error
+
+Ans-a
+________________________________________
+
+12) 
+
+#include<stdio.h>
+int main(){
+    //write Your code here
+    int arr[]={1,2,3,4,5,6};
+    int n=6;
+    for(int i=0,j=4-1;i<n/2;i++,j--)
+    {
+           printf("(%d,%d)\n",arr[i],arr[j]);
+    }
+    return 0;
+}
+
+ANs:-
+
+a) (1,4)
+   (2,3)
+
+a) (1,4)
+   (2,3)
+   (3,2)
+   (4,1)
+
+c) (1,4)
+   (2,3)
+   (3,2)
+
+d) Compiler time Error
+
+Ans-c
+__________________________________________
+
+13)
+
+
+#include<stdio.h>
+int main(){
+    int arr[]={1, 0, 2, 0, 4, 5, 0, 3, 0};
+    int i,j;
+     for (i = 0; i < 9; i++) {
+        if (arr[i] != 0)
+        {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+            j++;
+        }
+    }
+
+after this logic we Are printing array 
+what will be the output
+
+
+a) 1 2 4 5 3 0 0 0 0
+
+b) 0 0 0 0 1 2 4 5 3
+
+c) 0 0 0 0 4 5 3 2 1
+
+d) Compiler Time Error
+
+
+____________________Ans-d____________________
+
+14) 
+
+#include<stdio.h>
+int main(){
+    //write Your code here
+    int arr[]={1,2,3,4,5,6};
+    int element=3,j,size=5;
+     for (int i = 0,  j = 0; i < size; i++) {
+        if (arr[i] != element) {
+            arr[j++] = arr[i];
+        }
+    }
+    size--;
+    for(int i=0;i<size;i++)
+    {
+        printf("%4d",arr[i]);
+    }
+    return 0;
+}
+
+A) 1   2   4   5
+
+b) 1   2   3   4
+
+c) 1   4   5   6
+
+d)  Compiler Time Error
+
+
+Ans-a
+________________________________
+
+15)
+
+What will be the output of the following C code?
+
+    #include <stdio.h>
+    void main()
+    {
+        int a[2][3] = {1, 2, 3, 4, 5};
+        int i = 0, j = 0;
+        for (i = 0; i < 2; i++)
+        for (j = 0; j < 3; j++)
+        printf("%d", a[i][j]);
+    }
+
+a) 1 2 3 4 5 0
+b) 1 2 3 4 5 junk
+c) 1 2 3 4 5 5
+d) Run time error
+
+Ans-a
+
+________________________________
+
+16) What will be the output of the following C code?
+
+    #include <stdio.h>
+   
+    void main()
+    {
+        int a[2][3] = {0};
+         a[0][1] = 3;
+        int i = 0, j = 0;
+        for (i = 0; i < 2; i++)
+        for (j = 0; j < 3; j++)
+        printf("%d", a[i][j]);
+    }
+
+a) 0 3 0 0 0 0
+b) Junk 3 junk junk junk junk
+c) Compile time error
+d) All junk values
+
+Ans-a
+_____________________________________
+
+17)
+
+int main()
+{
+    int i;
+    int arr[5] = {1};
+    for (i = 0; i < 5; i++)
+        printf("%d ", arr[i]);
+    return 0;
+}
+(A) 1 followed by four garbage values:
+(B) 1 0 0 0 0
+(C) 1 1 1 1 1
+(D) 0 0 0 0 
+
+
+Ans-b
+_______________________________
+
+18)
+
+#include<stdio.h>
+int main(){
+    //write Your code here
+
+    int i;
+    int arr[5] = {1,3,5,6,7};
+    int size=5,Position=2,Value=7;
+       for (i = size; i >Position; i--) {
+        arr[i] = arr[i - 1];
+    }
+    arr[Position] = Value;
+    for(int i=0;i<size;i++)
+    {
+        printf("%d",arr[i]);
+    }
+    return 0;
+}
+
+a) 13576
+B) 17356
+c) 13756
+d) 13567
+
+Ans-c 
+____________________________________________
+
+19)
+#include<stdio.h>
+int main(){
+    //write Your code here
+
+    int i;
+    int arr[5] = {1,2,3,9};
+    int size=4,Position=3,Value=0;
+       for (i = size; i >Position; i--) {
+        arr[i] = arr[i - 1];
+    }
+    arr[Position] = Value;
+    for(int i=0;i<size;i++)
+    {
+        printf("%d",arr[i]);
+    }
+    return 0;
+}
+
+a) 1230
+b) 0123
+c) 123
+d) Error
+
+Ans-a
+
+
+____________________________________
+
+20) 
+
+#include<stdio.h>
+
+int main(){
+    //write Your code here
+
+    int i;
+    int arr[5] = {1,6,4,9};
+   int Position=3,size=5,Value=4;
+    //get the insert possition
+    for (i = 0; i < size; i++) {
+        if (Value < arr[i]) {
+            Position = i;//insert possition
+            break;
+        }
+    }
+   printf("%d",Position);
+    return 0;
+}
+
+what will be the output of the following program
+
+a)2
+b)3
+c)1
+d)0
+
+Ans-c
+
+________________________________________________
+
+21) 
+Find the output for the following code
+
+#include<stdio.h>
+
+int main()
+
+{
+
+   int a[]={'x','y','z','b'};
+
+   int i;
+
+    for(i=0;i<=3;i++)
+
+     printf("%d\n",a[i]);
+
+    return 0;
+
+}
+
+
+a) 110,111,112,97
+
+b) 120,121,122,98
+
+c) 98,120,121,122
+
+d)None of the above
+
+Ans-b
+______________________________________________
+
+22)
+
+Which among the following is/are true with respect to the disadvantages of array?
+
+
+a) Fixed Size
+
+b) Memory allocation issues
+
+c) Lack of flexibility
+
+d) All the above
+
+Ans-d
+__________________________________________
+
+
+23) 
+
+Choose an alternative Declaration of multidimensional array?
+
+int a[][3]={1,2,3,4,5,6};
+
+A) int a[2][3]={1,2,3,4,5,6};
+
+b) int a[2][3]={{1,2,3},{4,5,6}};
+
+c) int a[][3]={{1,2,3},{4,5,6}};
+
+d) All the above
+
+And-d
+_______________________________
+
+24) 
+1
+points
+Are the following array declarations correct?
+
+i)    int a(25);
+
+ii)    int size=10,b[size];
+
+iii)    int c={0,1,2};
+
+
+A) i) and iii) wrong
+
+b) ii) and iii) wrong
+
+c) ii) correct
+
+d) all are wrong
+
+Ans-d
+
+_____________________________________
+
+25)
+
+Maximum number of elements in the array declaration int a[5][8] is
+
+
+A) 28
+
+b) 32
+
+c) 35
+
+d) 40
+
+
+Ans-d
+__________________________________________
+
+26)
+
+
+What is the output of the following code?
+
+#include<stdio.h>
+
+int main()
+
+{
+
+    int n[3][3]={2,4,3,6,8,5,3,5,1};
+
+    int i,j;
+
+    for(i=0;i<=2;i++)
+
+    {
+
+        for(j=0;j<=2;j++)
+
+        {
+
+            printf("%d",n[j][i]);
+
+        }
+
+    }
+
+    return 0;
+
+}
+
+
+A) 2 4 3 6 8 5 3 5 1
+
+b) 2 6 3 4 8 5 3 5 1
+
+c) 2 6 3 4 8 5 1 5 3
+
+d) None
+
+Ans-b
+
+___________________________________
+
+27) 
+
+ What will be the output of the following C code?
+
+    #include <stdio.h>
+
+    int main()
+
+    {
+
+        int ary[2][3];
+
+        ary[][] = {{1, 2, 3}, {4, 5, 6}};
+
+        printf("%d\n", ary[1][0]);
+
+    }
+
+
+a)1
+
+b)2
+
+c)4
+
+d)Compiler error
+Ans-d
+____________________________________
+
+28)
+
+int main()
+
+{
+
+   int a[]={1,2,3,4,5};
+     printf("%d\n",2[a]);
+    return 0;
+
+}
+What Will be the output?
+
+a)0
+b)3
+c)2
+d)Error
+
+Ans-b
+__________________________________
+
+29)
+int main()
+{
+   int a[]={1,2,3,4,5};
+     printf("%d\n",4[a]);
+    return 0;
+}
+What Will be the output?
+
+a)4
+b)5
+c)2
+d)Error
+
+Ans-b
+_____________________________________
+
+30)
+
+int main()
+{
+   int a[]={1,2,3,4,5};
+     printf("%d\n",1[a]);
+    return 0;
+}
+What Will be the output?
+
+a)4
+b)5
+c)2
+d)Error
+
+
+
+Ans-c

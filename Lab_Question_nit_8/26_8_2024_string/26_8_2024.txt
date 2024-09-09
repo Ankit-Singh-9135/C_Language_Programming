@@ -1,0 +1,114 @@
+1)Count
+Write a C program to count the Count the vowel, Consonant, Digit and Special Character in a given String .
+Sample Input
+Enter a String : Nareshit @123
+Sample Output
+Output as :
+
+Vowel count is : 3
+
+Consonant count is : 5
+
+Digit count is : 3
+
+Special Character count is : 1
+
+#include<stdio.h>
+int main(){
+    char s[100];
+    int vol=0,con=0,d=0,sp=0;
+    printf("Enter a string ");
+    // scanf("%[^\n]",s);
+        scanf("%s",s);
+
+    for(int i=0; s[i]!='\0'; i++){
+        if(s[i]>='a' && s[i]<='z' ){
+             if(s[i]=='a'|| s[i]=='e'||s[i]=='o'||s[i]=='u'||s[i]=='i')
+                  vol++;
+            else
+                con++;
+                 }
+        else if(s[i]>='0' && s[i]<='9')
+        d++;
+        else
+        sp++;
+        }
+    
+     printf("vovel : %d\n",vol);
+      printf("constonen : %d\n",con);
+       printf("digit : %d\n",d);
+        printf("special character  : %d\n",sp);
+}
+-----------------------------
+
+2)Reverse of a given String
+Write a C program to print the reverse of a given String .
+Sample Input
+Input as :
+
+Enter a String : NareshIT
+Sample Output
+Output as : 
+
+The reverse of the String is : TIhseraN
+
+3)Sort the string
+Write a C program to sort the string data and print it.
+Sample Input
+Input as : 
+
+Enter a String : apple
+Sample Output
+Output as : 
+
+After Sorting the String is : aelpp
+
+#include<stdio.h>
+int main(){
+char s[50];
+scanf("%s",s);
+for(int i=0;s[i]!='\0';i++)
+{
+    
+for(int j=i+1;s[j]!='\0';j++)
+{
+    if(s[i]>s[j])
+    {
+        int t=s[i];
+        s[i]=s[j];
+        s[j]=t;
+    }
+}
+}
+
+printf("%s",s);
+    
+    return 0;
+}
+
+4)Count the number of alphabet
+Write a C program to count the number of alphabet present in a given String .
+Sample Input
+Input as : Apple
+Sample Output
+Output as : The count of alphabet is : 5
+
+#include<stdio.h>
+int main(){
+char s[20],c=0;
+// scanf("%[^\n]",s);
+scanf("%s",s);
+
+
+for(int i=0;s[i]!='\0';i++)
+{
+     if((s[i]>='a' && s[i]<='z')||(s[i]>='A' && s[i]<='Z')  ){
+        c++;
+     }
+    
+}
+printf("%d",c);
+
+    
+    return 0;
+}

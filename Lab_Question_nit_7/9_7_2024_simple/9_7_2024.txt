@@ -1,0 +1,64 @@
+1)Convert Centimeter to Inches
+
+Write a program that takes input from the user, take some input for centimeter and convert that into inches .
+
+input :- 1
+
+output:-0.3937
+
+input :- 20
+
+output:-7.87
+
+
+=====================
+
+2)Sum of Natural Number
+
+Write a C program to calculate the sum of natural numbers from 1 to a given positive integer by the user,take the input from the user by using scanf(). 
+
+
+Input as :
+
+Enter a positive integer: 10
+
+Expected output:
+
+The sum of natural numbers from 1 to 10 is: 55
+=======================
+3)Area of Different Shape
+
+
+Write a C program that takes 2 number as input and store that number in a variable, First input for radius of a Circle and 2nd input for side of a Square.
+
+Enter radius of Circle : 12
+
+Enter side of Square : 5
+
+Area of Circle is : 452.16
+
+Area of Square is : 25
+
+=================
+
+4)ASCII Sum
+
+Write a C program to take two character input from the user and print the ASCII value of that two character and display its sum.
+
+Enter a character: a b
+
+ASCII value of a is : 97
+
+ASCII value of b is : 98
+
+ASCII sum of a & b is : 195
+
+===============================
+
+5)Convert days in Y-M-D
+
+Write a program in C to input number of days. Find and display number of years, weeks, months and days.
+
+Input as : 390
+
+Output as : 1 Year, 3 Weeks, 0 Month, 4 Days

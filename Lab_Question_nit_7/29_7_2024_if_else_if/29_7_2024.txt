@@ -1,0 +1,576 @@
+1)#include <stdio.h>
+    void main()
+    {
+        int x = 5;
+        if (x < 1)
+            printf("hello");
+        if (x != 5)
+            printf("hi");
+        else
+            printf("no");
+    }
+
+a) hi 
+b) hello
+c) no    [right]
+d) error
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+2)#include <stdio.h>
+   #include<stdbool.h>
+    void main()
+    {
+        bool n;
+        if (true !=true)
+            printf("print c language");
+    }
+a) It will display print c language 
+b) It will throw an error
+c) Nothing will be displayed   [right]
+d) Compiler dependent
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+3) What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        int x = 1;
+        if (x-- == 0)
+            printf("inside if\n");
+        else if (x == 0)
+            printf("inside elseif\n");
+            else
+            printf("Error");
+    }
+a) inside if
+b) inside elseif [right]
+c)inside if 
+  inside elseif
+d)compile time error
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+4)What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        int x = 1;
+        if (printf("Hello")!=5)
+            printf("inside if\n");
+        else if (printf("student..!"))
+            printf("Wellocome to c\n");
+            else
+            printf("Error");
+    }
+a) inside if
+b) Welcome to c
+c)Hellostudent..!Wellocome to c  [right]
+d)compile time error
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+5)How many blocks of code can be associated with an if-else statement?
+a) One
+b) Two  [right]
+c) Three
+d) It depends on the compiler
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+6)#include<stdio.h>
+int main(){
+int num = 25;
+int result;
+if (num % 2 == 0) {
+    result = num * 2;
+} else {
+    result = num * 3;
+}
+}
+a)50
+b)Compilation Error
+c)51
+d)Nothing will be displayed  [right]
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+7)What will be the output of the following code?
+#include <stdio.h>
+int main(){
+int x = 5, y = 10;
+if (x < 10 && y > 5) {
+    printf("Condition satisfied\n");
+} else {
+    printf("Condition not satisfied\n");
+}
+}
+a) Condition satisfied   [right]
+b) Condition not satisfied
+c) Compilation Error
+d) Runtime Error
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+8)#include <stdio.h>
+int main() {
+    int x = 5;
+    if (x = 6)
+        printf("x is 6\n");
+    else
+        printf("x is not 6\n");
+    return 0;
+}
+a) x is 6  [right]
+b) x is not 6
+c) Compilation Error
+d) Segmentation Fault
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+9)What is the output of C Program.?
+ int main()
+{
+    int a=5, b=8;
+    
+    if( a==5 && (b=9) )
+    {
+        printf("Gorilla Glass=");
+    }
+    printf("%d %d", a, b);
+
+    return 0;
+}
+
+A) 5 8
+B) 5 9
+C) Gorilla Glass=5 8
+D) Gorilla Glass=5 9      [right]
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+10)What is the output of C Program.?
+#include<stdio.h>
+int main()
+{
+    int a=9;
+    if(a==9)
+    {
+        printf("Ostrich\n");
+    }
+    else;
+    {
+        printf("Eggs\n");
+    }
+    
+    printf("White");
+
+    return 0;
+}
+
+A) White
+B) Ostrich
+   White
+C) Ostrich   [right]
+   Eggs
+   White
+D) Compiler Error
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+11)What will be the output of the following C code?
+#include <stdio.h>
+int main() {
+    int a = 0;
+    if (a) {
+        printf("First ");
+    } else if (!a) {
+        printf("Second ");
+    } else {
+        printf("Third ");
+    }
+    return 0;
+}
+a) First
+b) Second   [right]
+c) Third
+d) No Output
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+12).What happens if the condition in a simple if statement evaluates to false?
+a) Program exits
+b) Program skips the if block and continues execution  [right]
+c) Program enters the else block
+d) Syntax error
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+13)What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        int a = 1;
+        if (a--)
+            printf("True");
+        if (a++)
+            printf("False");
+    }
+a) True  [right]
+b) False
+c) True False
+d) No Output
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+14)What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        int a = 1;
+        if (a)
+            printf("All is Well ");
+            printf("I am Well\n");
+        else
+            printf("I am not a River\n");
+    }
+a) Output will be All is Well I am Well  [right]
+b) Output will be I am Well I am not a River
+c) Output will be I am Well
+d) Compile time errors during compilation
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+15)
+What is the output of the C Program.?
+int main()
+{
+    if(-5)
+    {
+        printf("Germany\n");
+    }
+    if(5)
+    {
+        printf("Texas\n");
+    }
+    printf("ZING");
+
+    return 0;
+}
+A) ZING
+B) Texas
+   ZING
+C) Germany   [right]
+  Texas
+  ZING
+D) Compiler error as a number can not be put as condition inside IF.
+
+
+
+
+------------------------------------------------------------------------Set-A------------------------------------------------------------------------
+                                  --------------------------------------5mark-----------------------------------------------
+1)Write a C program to enter week number and print day name of week and use if-else-if statements.
+Example :-1
+Intput
+Enter week number (1-7): 3
+Output
+Wednesday
+Example :-2
+Intput
+Enter week number (1-7): 9
+Output
+Invalid input! Please enter week number between 1 and 7.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+2.Design a program that takes a year as input and determines whether it is a leap year or not. Consider the leap year rules (divisible by 4, but not divisible by 100 unless also divisible by 400) and use if-else statements to provide the appropriate output.
+
+Input as : 
+Enter year : 2020
+Output as : 
+It is a leap year.
+----------------------------------------------------------------------------------------------------------------------------------------------------- 
+                               --------------------------------------10mark----------------------------------------------- 
+1)Write a C Program to check whether the triangle is an equilateral, isosceles or scalene triangle. Using the if-else statement.
+
+Take the inputs from the user.
+Case-1 :
+Enter the lengths of the sides of the triangle:
+Side 1: 5
+
+Side 2: 5
+
+Side 3: 5
+Case-2:
+
+Enter the lengths of the sides of the triangle:
+
+Side 1: 4
+
+Side 2: 5
+
+Side 3: 4
+
+The triangle is an isosceles triangle.
+Case-3:
+
+Enter the lengths of the sides of the triangle:
+
+Side 1: 3
+
+Side 2: 4
+
+Side 3: 5
+
+The triangle is a scalene triangle.
+----------------------------------------------------------------------------------------------------------------------------------------------------- 
+                               --------------------------------------15mark----------------------------------------------- 
+
+1) Write a C program to input electricity unit charge and calculate the total electricity bill according to the given condition: 
+
+-> For first 50 units Rs. 0.50/unit 
+
+-> For next 100 units Rs. 0.75/unit 
+
+-> For next 100 units Rs. 1.20/unit 
+
+-> For unit above 250 Rs. 1.50/unit 
+
+An additional surcharge of 20% is added to the bill. 
+
+How to calculate electricity bill using if else in C programming. Program to find electricity bill using if else in C. Logic to find net electricity bill in C program.  
+
+
+Input as : 
+
+Enter the electricity units consumed: 40
+
+Output as :
+
+Total electricity bill: Rs. 24.00
+
+
+Input as :
+
+Enter the electricity units consumed: 100
+
+Output as :
+
+Total electricity bill: Rs. 75.00
+
+------------------------------------------------------------------------Set-B------------------------------------------------------------------------
+                                  --------------------------------------5mark-----------------------------------------------
+1).Write a C program that takes an hour in the 24-hour format as input and identifies the time of day as "Morning," "Afternoon," "Evening," or "Night." Implement this using a series of if statements. Ensure that the program also checks for invalid input, displaying an appropriate message if the entered hour is not within the valid range (0-23). Present the program with a suitable title and header for clarity. Using if else 
+
+Input as :
+Enter the hour (24-hour format): 13
+
+Output as :
+It's Afternoon.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+2)Determine Voting Eligibility using if else
+Write a C program to check if a person is eligible to vote. A person is eligible to vote if their age is 18 or older.
+Example
+Input as:-
+Enter your age: 20
+Output as:-
+You are eligible to vote.
+Input as:-
+Enter your age: 16
+Output as:-
+You are not eligible to vote.
+-----------------------------------------------------------------------------------------------------------------------------------------------------                           --------------------------------------10mark-----------------------------------------------
+1)Write a C program to input electricity unit charge and calculate the total electricity bill according to the given condition: 
+
+-> For first 50 units Rs. 0.50/unit 
+
+-> For next 100 units Rs. 0.75/unit 
+
+-> For next 100 units Rs. 1.20/unit 
+
+-> For unit above 250 Rs. 1.50/unit 
+
+An additional surcharge of 20% is added to the bill. 
+
+How to calculate electricity bill using if else in C programming. Program to find electricity bill using if else in C. Logic to find net electricity bill in C program.  
+
+Input as : 
+
+Enter the electricity units consumed: 40
+
+Output as :
+
+Total electricity bill: Rs. 24.00
+
+Input as :
+
+Enter the electricity units consumed: 100
+
+Output as :
+
+Total electricity bill: Rs. 75.00
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+                   --------------------------------------15mark-----------------------------------------------
+
+You are developing a ticket pricing system for a theme park. Write a program that takes the following inputs from a customer:
+Age (integer)
+
+Height in centimeters (float)
+
+Whether the customer has a VIP pass (y or n)
+
+The program should calculate the ticket price based on the following rules:
+
+Children under 3 years old (inclusive) get in for free.
+
+Children aged 4 to 12 (inclusive) pay Rs.20.
+
+Adults aged 13 to 64 (inclusive) pay Rs.100.
+
+Seniors aged 65 and above pay Rs.50.
+
+However, there are some additional considerations based on height:
+
+If the customer is above 180 cm in height, they pay an extra 50.
+
+If the customer is between 120 cm (inclusive) and 180 cm (inclusive), no additional charge applies.
+
+If the customer is below 120 cm, they receive a 50% discount on the base ticket price.
+
+If the customer has a VIP pass, they get a 10% discount on the final ticket price.
+
+Write a program that implements these pricing rules and provides the following output:
+The customer's age, height, and VIP pass status.
+
+The calculated base ticket price before any discounts or additional charges.
+
+Any discounts or additional charges applied based on height.
+
+The final ticket price after applying all discounts and charges.
+
+Additionally, if the customer's age is below 0 or height is negative, the program should provide an error message.
+------------------------------------------------------------------------Set-C--------------------------------------------------------------------------------------
+                                  --------------------------------------5mark----------------------------------------------
+1)Check Positive, Negative, or Zero
+  Write a C program to check if a number is positive, negative, or zero.
+Example
+Input as:-
+Enter a number: 5
+Output as:-
+The number is positive.
+Input as:-
+Enter a number: -3
+Output as:-
+The number is negative.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2) Write a C program to check whether a character is alphabet or not uing simple if.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                              --------------------------------------10mark----------------------------------------------
+
+1) Write a C program to input amount from user and print minimum number of notes (Rs. 500, 100, 50, 20, 10, 5, 2, 1) required for the amount. How to the minimum number of notes required for the given amount in C programming. Program to find minimum number of notes required for the given denomination. Logic to find minimum number of denomination for a given amount in C program using if else?
+
+
+Input as :
+
+Enter the amount: 1275
+
+Output as :
+
+Rs. 500 notes: 2
+
+Rs. 100 notes: 2
+
+Rs. 50 notes: 1
+
+Rs. 20 notes: 1
+
+Rs. 10 coins: 0
+
+Rs. 5 coins: 1
+
+Rs. 2 coins: 0
+
+Rs. 1 coins: 0
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                              --------------------------------------15mark----------------------------------------------
+Title: Interactive Tea Stall Experience
+
+Introduction:
+
+Imagine strolling down a charming street, enticed by the inviting aroma of freshly brewed beverages.
+
+You arrive at a cozy tea stall, greeted by a friendly attendant. Prepare for an interactive journey through the Tea Stall Counter!
+
+Scenario:
+
+Welcome and Menu:
+
+You enter the tea stall, warmly welcomed by the attendant:
+
+Attendant: "Welcome to our Tea Stall Counter! Our menu:"
+
+Tea --------------------- Rs. 10
+
+Coffee ------------------ Rs. 20
+
+Cold coffee ------------- Rs. 50
+Exit
+
+Attendant: "Choose by entering a number (1-4):"
+[User enters choice]
+Customize Order:
+Based on your choice, the attendant guides you:
+[If choice is 1:]
+Attendant: "How many cups of refreshing tea?"
+[If choice is 2:]
+Attendant: "How many cups of aromatic coffee?"
+[If choice is 3:]
+Attendant: "How many cups of chilled cold coffee?"
+[User enters quantity]
+Total and Payment:
+The attendant shares your order total and awaits payment:
+Attendant: "Total for [quantity] cup(s): Rs. [total_price]."
+Attendant: "Enter your payment amount: Rs."
+[User enters amount_paid]
+Attendant: "Change: Rs. [change]."
+Continuation or Farewell:
+Choose to explore more or conclude your visit:
+Attendant: "Explore more or finalize? (Type 'Y' for Yes or 'N' for No):"
+[User enters order_again]
+[If user wants to continue:]
+Attendant: "Certainly, let's explore."
+[If user doesn't want to continue:]
+Attendant: "Thank you for visiting! We look forward to serving you again soon!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

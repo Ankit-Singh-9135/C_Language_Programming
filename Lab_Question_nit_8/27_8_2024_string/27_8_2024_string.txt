@@ -1,0 +1,208 @@
+Q1)Descending Order
+Write a c program to sort the String in Descending Order  ,after sorting print the result in string
+format?  
+Sample Input
+Input as :- "CoreJava"
+Sample Output
+Before sorting the array
+
+CoreJava
+
+
+After sorting the array
+
+vroeaaJC
+
+#include<stdio.h>
+int main(){
+char s[50];
+scanf("%s",s);
+for(int i=0;s[i]!='\0';i++)
+{
+    
+for(int j=0;s[j]!='\0';j++)
+{
+    if(s[i]>s[j])
+    {
+        int t=s[i];
+        s[i]=s[j];
+        s[j]=t;
+    }
+}
+}
+
+printf("%s",s);
+    
+    return 0;
+}
+--------------------------------------------------------------------
+Q2)String in Ascending
+Write a c program to sort the String in ascending order ,after sorting print the result in string
+format? 
+Sample Input
+Input as :- "CoreJava"
+Sample Output
+output as:-
+
+Before sorting the array
+
+CoreJava
+
+
+After sorting the array
+
+CJaaeorv
+
+#include<stdio.h>
+int main(){
+char s[50];
+scanf("%s",s);
+for(int i=0;s[i]!='\0';i++)
+{
+    
+for(int j=i+1;s[j]!='\0';j++)
+{
+    if(s[i]>s[j])
+    {
+        int t=s[i];
+        s[i]=s[j];
+        s[j]=t;
+    }
+}
+}
+
+printf("%s",s);
+    
+    return 0;
+}
+----------------------------------------------------------------
+
+Q3)Palindrome or Not .
+Write a c program to check the String is Palindrome  or Not .
+Sample Input
+madam
+Sample Output
+madam is palindrome string.
+
+#include <stdio.h>
+#include<ctype.h>
+int main()
+{
+    char s[100];
+    int i, j;
+    printf("Enter the string ");
+    gets(s);
+    for (i = 0; s[i] != '\0'; i++);
+   
+    for (j=0; j<i/2; j++)
+    {
+
+        if (tolower(s[j]) != tolower(s[i - j - 1]))
+        {
+            puts("Not a palindrome ");
+            return 0;
+        }
+    }
+    puts("palindrome");
+   
+
+    return 0;
+}
+--------------------------------------------------------
+
+Q4)Anagram
+Write a c Program to check whether two given strings are anagram of each other or not.
+Sample Input
+input 1:- listen
+
+input 2:- silent
+
+
+input 1:- Jack
+
+input 2:- Jake
+Sample Output
+this are anagram String
+
+
+this is not are anagram String
+
+// Online C compiler to run C program online
+#include <stdio.h>
+#include<string.h>
+
+int main() {
+  char s1[50],s2[50];
+  printf("Enter the first string");
+  scanf("%s",s1);
+   printf("Enter the second string");
+  scanf("%s",s2);
+  int len=strlen(s1);
+  int len1=strlen(s2);
+  for(int i=0;i<len;i++)
+  {
+      for(int j=i+1;j<len1;j++)
+      {
+          if(s1[i]>s1[j])
+          {
+              char t=s1[i];
+              s1[i]=s1[j];
+              s1[j]=t;
+          }
+           if(s2[i]>s2[j])
+          {
+              char t=s2[i];
+              s2[i]=s2[j];
+              s2[j]=t;
+          }
+      }
+  }
+  int f=0;
+   if(len==len1)
+        {
+            for(int i=0;i<len1;i++)
+            {
+                if(s1[i]==s2[i])
+                {
+                  f=1;  
+                }else
+                {
+                    f=0;
+                    break;
+                }
+            }
+           (f==1) ? printf("Anagram"):printf("Not Anagram");
+            
+        }else
+        {
+           printf("Not Anagram");
+        }
+
+    return 0;
+}
+----------------------------------------------------------------------
+
+Q5)The frequency of character
+Write a c program to print all the frequency of character present .
+Sample Input
+String s=" Hello Everyone"
+Sample Output
+The frequency of H is 1
+
+The frequency of e is 3
+
+The frequency of l is 2
+
+The frequency of o is 2
+
+The frequency of   is 1  --------THIS IS FOP CHECKING THE SPACE COUNT 
+
+The frequency of E is 1
+
+The frequency of v is 1
+
+The frequency of r is 1
+
+The frequency of y is 1
+
+The frequency of n is 1

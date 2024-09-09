@@ -1,0 +1,25 @@
+1)Write a c program to swap the 2 numbers using third variable ?
+input : 
+a = 10;
+b = 20;
+
+output:
+a=20;
+b=10;
+
+**********************************************
+
+2)Write a c program to swap the 2 numbers without using third variable ?
+input : 
+a = 10;
+b = 20;
+
+output:
+a=20;
+b=10;
+
+**********************************************
+
+3)Write a c program to perform addition of 2 number without using + operator ?
+
+**********************************************
