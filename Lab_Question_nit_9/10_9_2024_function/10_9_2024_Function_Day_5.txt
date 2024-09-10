@@ -1,0 +1,85 @@
+Que 1 : Write a function to find the length of a given string (excluding the null character).
+-------
+
+-> create int main() function
+-> create int getLength(char str[]) function. this function will return length of string
+-> in main function read String and call the getLength fuction and print the output.
+
+Sample input : Hello
+Sample output: Length of the string: 5
+
+
+Sample input : ThisIsALongString
+Sample output: Length of the string: 17
+
+===========================================================================================================================
+
+
+Que 2 : Write a C program to check given String is palindrom or not using function.
+-------
+
+-> create int main() function.
+-> create bool isPalindromString(char str[]) function. this function will check given string is palindrom or not and return (true if the string is a palindrome, false otherwise).
+-> in main function read one string input and call isPalindromString function. and print the result.
+
+Sample input : radar
+Sample output : The string is a palindrome.
+
+Sample input : hello
+Sample output : The string is not a palindrome.
+==============================================================
+Que 3 : Write a C program to calculate the sum of all elements in an integer array using function.
+------
+
+-> create int main() function.
+-> create int arraySum(char str[]) function. this function will take integer array as input in parameter and will return the total sum as result.
+-> in main function read size of array , then based on size create new array and store the values.
+-> call the arraySum function and print the sum which is return by arraySum function.
+
+
+Sample input:
+              Size of the array: 5
+              Array elements: 10 20 30 40 50
+
+
+Sample output: Sum of all elements in the array: 150
+
+=========================================================================================================================
+
+Que 4: Write a C program to check if two strings are anagrams of each other or not using function.
+------
+
+-> create int main() function.
+-> create bool isAnagram(char str1[],char str2[]) function. this function will take two string as input and will return true if both String are anagram otherwise will return false.
+-> in main function read two Strings and pass it to isAnagram fuction by calling it and print the result.
+
+
+Sample input:
+             First string : listen
+             Second string: silent
+
+Sample output: The strings are anagrams.
+
+
+Sample input:
+             First string : hello
+             Second string: world
+
+Sample output: The strings are not anagrams.
+
+=========================================================================================================================
+
+Que 5 : Write a C program to check if a string contains only digits.
+--------
+
+-> create int main() function.
+-> create bool isContainsDigits(char str[]) function. this function will take string as input and will return (true if String contains only digits otherwise return false).
+-> in main function read String and pass it to isContainsDigits fuction by calling it and print the result.
+
+
+Sample input  : 12345
+Sample output : The string contains only digits.
+
+
+Sample input : 45A7
+Sample output : The string contains non-digit characters.
