@@ -22,28 +22,107 @@
 // Explanation
 // Armstrong number Example : 153 = 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153
 
-#include<stdio.h>
-#include<math.h>
 
-int Armstrong_number(num);
-int main(){
-    int num;
-    printf("Enter the Armstrong number : ");
+#include <stdio.h>
+#include <math.h>
 
-    Armstrong_number(num);
-    return 0;
+int countDigits(int num)
+{
+  int count = 0;
+  while (num)
+  {
+    num = num / 10;
+    count++;
+  }
+  return count;
 }
 
-int Armstrong_number(int num){
-    int r,temp,sum=0;
-    temp=num;
-    for (int i = 100; i < 1000; i++)
+int isArmstrong(int num)
+{
+  int digit = countDigits(num);
+  int sum = 0, temp = num;
+
+  while (num)
+  {
+    int rem = num % 10;
+    sum += pow(rem, digit);
+    num = num / 10;
+  }
+
+  return (sum == temp);
+}
+
+int main()
+{
+  int start, end;
+  printf("Enter starting point : ");
+  scanf("%d", &start);
+  printf("Enter ending point : ");
+  scanf("%d", &end);
+  printf("Armstrong numbers%d and %d :\n", start, end);
+  for (int i = start; i <= end; i++)
+  {
+    if (isArmstrong(i))
     {
-        r=num%10;
-        // sum=sum*10+r;
-        sum+=pow(r,num);
-        num=num/10;
+      printf("%d\n", i);
     }
-   return (sum==num);
-    
+  }
+
+  return 0;
 }
+
+
+
+
+// ==================================
+
+// #include <stdio.h>
+// #include <math.h>
+// int check_armstrong(int);
+// void display(int, int);
+// int digit_count(int);
+// int main()
+// {
+//   int start, end;
+//   printf("Enter starting point : ");
+//   scanf("%d", &start);
+//   printf("Enter ending point : ");
+//   scanf("%d", &end);
+//   display(start, end);
+//   return 0;
+// }
+
+// void display(int start, int end)
+// {
+//   for (int i = start; i <= end; i++)
+//   {
+//     if (check_armstrong(i))
+//     {
+//       printf("%d ", i);
+//     }
+//   }
+// }
+
+// int check_armstrong(int num)
+// {
+//   int store_num = num, digit = digit_count(num), result = 0;
+
+//   while (num)
+//   {
+//     int rem = num % 10;
+//     result += pow(rem, digit);
+//     num /= 10;
+//   }
+//   return store_num == result;
+// }
+
+// int digit_count(int num)
+// {
+//   int digit = 0;
+//   while (num)
+//   {
+//     digit++;
+//     num /= 10;
+//   }
+//   return digit;
+// }
