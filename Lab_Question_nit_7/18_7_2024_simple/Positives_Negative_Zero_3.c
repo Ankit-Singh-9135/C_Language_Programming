@@ -10,5 +10,8 @@
 int main(){
     int num;
     printf("Enter the number :");
+    scanf("%d",&num);
+    // num>0?printf("+v"):num!=0?printf("-N"):printf("0");
+    printf("%d is %s",num,num>0?"+ve":num==0?"0":"-ve");
     
 }

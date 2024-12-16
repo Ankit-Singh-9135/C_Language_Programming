@@ -18,7 +18,6 @@
 // The string contains non-digit characters.
 
 #include <stdio.h>
-#include <string.h>
 void contain_only_digits(char[]);
 int main()
 {
